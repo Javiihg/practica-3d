@@ -6,14 +6,16 @@ TagManager:
   tags:
   - Suelo
   - ObjetoColisionable
+  - camera1
+  - camera2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - camera1
   - Water
   - UI
-  - 
+  - camera2
   - 
   - 
   - 
@@ -42,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: camera1
+    uniqueID: 1063008735
+    locked: 0
+  - name: camera2
+    uniqueID: 3918401579
     locked: 0
